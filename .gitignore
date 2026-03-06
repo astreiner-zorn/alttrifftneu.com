@@ -3,4 +3,5 @@
 /assets/bootstrap/
 
 db.php
-.pem
+altrifftneu.localhost-key.pem
+altrifftneu.localhost.pem
