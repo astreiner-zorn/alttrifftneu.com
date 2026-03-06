@@ -1,0 +1,63 @@
+[
+  {
+    "id": 1,
+    "username": "HansPeter1337",
+    "firstName": "John",
+    "lastName": "Doe",
+    "password": "Hallo123456",
+    "age": 30,
+    "role": "admin",
+    "aboutMe": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr,sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    "permissions": [
+      { "name": "Lesen", "right": true },
+      { "name": "Schreiben", "right": true },
+      { "name": "Löschen", "right": true }
+    ]
+  },
+  {
+    "id": 2,
+    "username": "goldfishant",
+    "firstName": "Jane",
+    "lastName": "Smith",
+    "password": "Hallo123456",
+    "age": 28,
+    "role": "admin",
+    "aboutMe": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr,sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+
+    "permissions": [
+      { "name": "Lesen", "right": true },
+      { "name": "Schreiben", "right": true },
+      { "name": "Löschen", "right": false }
+    ]
+  },
+  {
+    "id": 3,
+    "username": "zephyrheat",
+    "firstName": "Alice",
+    "lastName": "Johnson",
+    "password": "Hallo123456",
+    "age": 28,
+    "role": "mod",
+    "aboutMe": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr,sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    "permissions": [
+      { "name": "Lesen", "right": true },
+      { "name": "Schreiben", "right": true },
+      { "name": "Löschen", "right": false }
+    ]
+  },
+  {
+    "id": 4,
+    "username": "olafcarbon",
+    "firstName": "Patrick",
+    "lastName": "James",
+    "password": "Hallo123456",
+    "age": 35,
+    "role": "user",
+    "aboutMe": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr,sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
+    "permissions": [
+      { "name": "Lesen", "right": true },
+      { "name": "Schreiben", "right": false },
+      { "name": "Löschen", "right": false }
+    ]
+  }
+]

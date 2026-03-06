@@ -1,0 +1,50 @@
+[
+    {
+        "id": 8,
+        "alterVon": 81,
+        "alterBis": 120,
+        "preis": 0
+    },
+    {
+        "id": 7,
+        "alterVon": 61,
+        "alterBis": 80,
+        "preis": 2
+    },
+    {
+        "id": 6,
+        "alterVon": 31,
+        "alterBis": 60,
+        "preis": 4
+    },
+    {
+        "id": 5,
+        "alterVon": 19,
+        "alterBis": 30,
+        "preis": 3
+    },
+    {
+        "id": 4,
+        "alterVon": 18,
+        "alterBis": 18,
+        "preis": 0
+    },
+    {
+        "id": 3,
+        "alterVon": 13,
+        "alterBis": 17,
+        "preis": 3
+    },
+    {
+        "id": 2,
+        "alterVon": 7,
+        "alterBis": 12,
+        "preis": 2
+    },
+    {
+        "id": 1,
+        "alterVon": 0,
+        "alterBis": 6,
+        "preis": 1
+    }
+]

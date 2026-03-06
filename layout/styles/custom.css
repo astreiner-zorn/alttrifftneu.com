@@ -1,0 +1,63 @@
+/* Fonts */
+@font-face {
+  font-family: 'Poppins';
+  src: url('/assets/fonts/Poppins-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/assets/fonts/Poppins-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('/assets/fonts/Poppins-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+--sidebar-width: 300px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Desktop Layout */
+@media (min-width: 992px) {
+  .main-with-sidebar {
+    margin-left: var(--sidebar-width);
+  }
+
+  .mobile {
+    display: none;
+  }
+}
+
+table a {
+  color:#fb923c !important;
+  text-decoration: none !important;
+}
+
+table .text-hover-success:hover {
+  color:#2563eb !important;
+  transition: color 0.15s ease-in-out;
+}
+
+a.navlink-hover:hover {
+  color:#fb923c !important;
+  transition: color 0.15s ease-in-out;
+}
+
+/* .ck-blurred, .ck-content, .ck-editor__editable {
+    min-height: 300px !important;
+    max-height: 600px !important;
+    overflow-y: auto;
+    padding: 20px;
+} */
