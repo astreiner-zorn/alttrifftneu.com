@@ -1,7 +1,8 @@
-/assets/ckeditor/
+/assets/ckeditor5/
 /assets/fontawesome/
 /assets/bootstrap/
+/assets/highlight/
 
 db.php
-altrifftneu.localhost-key.pem
-altrifftneu.localhost.pem
+alttrifftneu.localhost-key.pem
+alttrifftneu.localhost.pem

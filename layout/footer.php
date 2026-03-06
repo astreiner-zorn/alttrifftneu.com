@@ -4,18 +4,17 @@
 <script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 <!-- CKEditor 5 CDN (UMD) -->
-<link rel="stylesheet" href="https://cdn.ckeditor.com/ckeditor5/47.3.0/ckeditor5.css">
-<script src="https://cdn.ckeditor.com/ckeditor5/47.3.0/ckeditor5.umd.js"></script>
-<script src="https://cdn.ckeditor.com/ckeditor5/47.3.0/translations/de.umd.js"></script>
+<link rel="stylesheet" href="/assets/ckeditor5/ckeditor5.css">
+<script src="/assets/ckeditor5/ckeditor5.umd.js"></script>
+<script src="/assets/ckeditor5/translations/de.umd.js"></script>
 
 <!-- Highlight.js (optional, but enabled) -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/styles/github-dark.min.css">
-<script src="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/highlight.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/languages/php.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/languages/javascript.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/languages/xml.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/languages/css.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/languages/sql.min.js"></script>
+<link rel="stylesheet" href="/assets/highlight/styles/github-dark.min.css">
+<script src="/assets/highlight/highlight.min.js"></script>
+<script src="/assets/highlight/languages/php.min.js"></script>
+<script src="/assets/highlight/languages/javascript.min.js"></script>
+<script src="/assets/highlight/languages/css.min.js"></script>
+<script src="/assets/highlight/languages/sql.min.js"></script>
 
 <script>
 (function () {
@@ -59,11 +58,8 @@
   } = CKEDITOR;
 
   ClassicEditor.create(el, {
-    licenseKey: 'eyJhbGciOiJFUzI1NiJ9.eyJleHAiOjE3OTcyMDYzOTksImp0aSI6IjMwMjRjYTFlLTE4OWItNGRmYi1iYzE3LWQzM2I0MWQ2YjQ3MSIsImxpY2Vuc2VkSG9zdHMiOlsiKi5yaWZ0Y29yZS5kZSIsIioubG9jYWxob3N0Il0sInVzYWdlRW5kcG9pbnQiOiJodHRwczovL3Byb3h5LWV2ZW50LmNrZWRpdG9yLmNvbSIsImRpc3RyaWJ1dGlvbkNoYW5uZWwiOlsiY2xvdWQiLCJkcnVwYWwiXSwiZmVhdHVyZXMiOlsiRFJVUCIsIkUyUCIsIkUyVyJdLCJ2YyI6ImQyMmI0YzBlIn0.v_V2Lw1DXb2l899ilpIxwb4eCZUCuKIhfMK3zgUHzp6AhGPqFqMtjEo1PPJU7I6EOcUsDiElc7AlhH3EmVgWaA',
+    licenseKey: 'GPL',
     language: 'de',
-    simpleUpload: {
-      uploadUrl: '../assets/upload.php'
-    },
     plugins: [
       Essentials,
       Paragraph,

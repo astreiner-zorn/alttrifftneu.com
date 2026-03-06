@@ -1,4 +1,5 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'] . "/db.php"); ?>
+<?php ob_start(); ?>
 
 <!DOCTYPE html>
 <html lang="de">
@@ -11,7 +12,6 @@
     <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="/layout/styles/custom.css">
     <link rel="stylesheet" href="/layout/styles/ckeditor.css">
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/styles/github-dark.min.css"> -->
 </head>
 
 <body>
